@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    align-items: flex-start;
+    height: 200px;
+    width: 800px;
+}
+
+.文字 {
+    width: 500px;
+    height: 150px;
+}
+
+.上面文字 {
+    display: flex;
+    font-size: 35px;
+    color: black;
+    margin-top: 15px;
+}
+
+.下面文字 {
+    display: flex;
+    width: 500px;
+    height: 35px;
+    font-size: 24px;
+    color: gray;
+    margin-top: 15px;
+}
+
+.打开app {
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin-left: 360px;
+    font-size: 15px;
+    border: 1px solid red;
+}
+
+.图片 {
+    display: flex;
+    width: 180px;
+    height: 181px;
+}
